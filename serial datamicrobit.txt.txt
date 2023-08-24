@@ -1,0 +1,8 @@
+# Micro:bit code (simplified)
+from microbit import *
+
+while True:
+    sensor_data = str(display.read_light_level())
+    display.scroll(sensor_data)
+    uart.write(sensor_data + '\n')
+    sleep(1000)
