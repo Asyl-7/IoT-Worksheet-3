@@ -20,6 +20,7 @@ Aim of this project is to send sensory data from the microbit , in this example 
 *	Create a virtual environment
 * python -m venv venv           # Create a virtual environment
 * source venv/bin/activate     # Activate the virtual environment (Linux/macOS)
+* make sure to flash the hex file into microbit
 *	pip install Flask
 *	once its done to run the app, run the code python app.py
 
